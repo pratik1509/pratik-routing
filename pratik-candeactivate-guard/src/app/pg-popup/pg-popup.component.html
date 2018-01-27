@@ -1,0 +1,13 @@
+<h1>
+  Warning !
+</h1>
+<div>
+  <label>Are you sure you want to quit this page?</label>
+</div>
+<div mat-dialog-action>
+  <button mat-button class="popup-btn" (click)="pgdialogRef.close({isSubmit: true})">Submit</button>
+  <button mat-button class="popup-btn" (click)="pgdialogRef.close({isSubmit: false})">Cancel</button>
+</div>
+<p>
+  pg-popup works!
+</p>
